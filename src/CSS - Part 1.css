@@ -1,0 +1,74 @@
+/*Add a new stylesheet to your website​
+Include 2 class selectors with updates to them​
+Include one pseudo class or element​
+Add one div section​
+Include one css change that we did not discuss in class​
+Add padding or margin to an element */
+/* Sara Lowenthal 10/6/24 */
+
+body {
+    background-color: whitesmoke;
+  }
+  
+  div {
+    text-align: center;
+    font-family: Papyrus;
+    border-style: dashed;
+    border-color: gray;
+    border-radius: 12px;
+    margin: 30px;
+  }
+
+  h1 {
+    background-color: gold;
+    color: gray;
+  }
+
+  h2 {
+    color: darkorange;
+    text-shadow: 2px 2px 0px gray;
+    font-size: 30px;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+  }
+
+  ul {
+    font-size: 20px;
+    font-family: Papyrus;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 12px;
+    border-color: darkorange;
+    line-height: 1.8;
+    margin: 30px;
+  }
+
+  .yellow {
+    color: rgb(207, 176, 4)
+  }
+
+  .orange {
+    color: darkorange;
+  }
+
+  a {
+    font-size: 40px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 8px gray;
+
+  }
+  a:link {
+    color: red;
+  }
+  a:visited {
+    color: turquoise;
+  }
+  a:hover {
+    color: hotpink;
+  }
