@@ -1,0 +1,41 @@
+<!-- Create a form containing​
+At least 3 form elements​
+A Post endpoint​ -->
+<!-- Sara Lowenthal 12/12/24 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Strategy Form</title>
+</head>
+<body>
+    <h1>Study Strategy Form</h1>
+    <p>Fill out this form to let us know your most effective study habits!</p>
+
+    <form action="https://webhook.site/890100b9-ad4e-4e93-bdf0-fc7a3050bf80" method="POST">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+        <label for="study-location">Where do you study best?</label><br>
+        <select id="study-location" name="study-location">
+            <option value="bed">In bed</option>
+            <option value="library">Library</option>
+            <option value="coffee-shop">Coffee shop</option>
+            <option value="Desk">Desk</option>
+        </select><br><br>
+
+        <label for="snacks">What snacks are essential while studying?</label><br>
+        <input type="checkbox" id="chips" name="snacks" value="chips">
+        <label for="chips">Chips</label><br>
+        <input type="checkbox" id="chocolate" name="snacks" value="chocolate">
+        <label for="chocolate">Chocolate</label><br>
+        <input type="checkbox" id="coffee" name="snacks" value="coffee">
+        <label for="coffee">Coffee</label><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
