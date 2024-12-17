@@ -1,0 +1,44 @@
+/* Create a table in your project containing​
+One colspan or rowspan > 1​
+At least 3 rows and columns​
+Lines/ borders css to look nice */
+/* Sara Lowenthal 12/12/24 */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #555;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+}
+
